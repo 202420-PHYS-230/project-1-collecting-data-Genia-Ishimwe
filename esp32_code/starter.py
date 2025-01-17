@@ -41,3 +41,5 @@ for i in range(0,255,5): # steps of 5 to save time
 vdac.value = 0 # let the LED rest...
 f.close()
 
+import pandas as pd
+import matplotlib.pyplot as plt
